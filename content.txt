@@ -12,9 +12,14 @@
     > Function vs Method
     > Magic method / Dunder method
     > self
-
     > Encapsulation
     > Getter and Setter
     > Static Method
 
-    > Inheritance
+6. Inheritance
+    > Inheritance code example
+    > Why inheritance is needed? (code reesuability, parent has no access to child class)
+    > WHat gets Inherited ? Constructor, Non private attributes, non private methods.
+    > Constructor overloading and method overloading
+    > super key word (can be use only inside class, cannot access variables/attributes, used only inside childclass)
+    > Types of inheritance  
