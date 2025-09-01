@@ -28,10 +28,10 @@ class chatbook:
                        2. Press 2 to message a friend
                         """)
         if uinput == "1":
-            pass
+            self.my_post()
 
         elif uinput == "2":
-            pass
+            self.send_mesg()
 
         else:
             exit
@@ -62,5 +62,19 @@ class chatbook:
                 print("Enter Correct email and password")
         print("\n")        
         self.menu()
+    
+    def my_post(self):
+        txt = input("Enter your message here --> ")
+        print(f"following content has been posted -> {txt}")
+
+        print('\n')
+        self.post()
+
+    def send_mesg(self):
+        txt = input("Enter your message here --> ")
+        frd = input("enter your friend name --> ")
+        print(f"messege sent succesfully to -> {frd}")
+        print('\n')
+        self.post()
 
 obj = chatbook()
