@@ -23,3 +23,8 @@
     > Constructor overloading and method overloading
     > super key word (can be use only inside class, cannot access variables/attributes, used only inside childclass)
     > Types of inheritance  
+        1.Single or Basic Inheritance
+        2.Multilevel Inheritance
+        3.Hierarchical Inheritance
+        4.Multiple Inheritance (Diamon Problem)
+        5.Hybrid Inheritance
