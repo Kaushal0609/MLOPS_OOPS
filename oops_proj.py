@@ -77,4 +77,3 @@ class chatbook:
         print('\n')
         self.post()
 
-obj = chatbook()
